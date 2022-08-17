@@ -1,7 +1,5 @@
-module github.com/gruebel/checkov
+module gomod
 
-require (
-	github.com/tidwall/gjson v1.7.4
-)
+go 1.16
 
-go 1.13
+require github.com/tidwall/gjson v1.7.4 // indirect
